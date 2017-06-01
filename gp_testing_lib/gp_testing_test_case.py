@@ -21,6 +21,11 @@ class GertrudTestCaseRule:
         return str(self.rule)
 
 
+class GertrudTestCaseRuleValueExists(GertrudTestCaseRule):
+    def compare(self, value):
+        return value is not None and value is not ""
+
+
 class GertrudTestCaseRuleRe(GertrudTestCaseRule):
     def compare(self, value):
         return re.match(self.rule, value) is not None
