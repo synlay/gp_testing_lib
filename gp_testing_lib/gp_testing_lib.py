@@ -4,9 +4,7 @@ import glob
 import re
 import os
 
-import gp_testing_lib
-
-from gp_testing_test_case import GertrudTestCase
+from gp_testing_lib.gp_testing_test_case import GertrudTestCase
 
 class GertrudTesting:
 
