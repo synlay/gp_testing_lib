@@ -23,8 +23,8 @@ setup(
     description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
     long_description=readme + '\n\n' + history,
     author="David Robakowski",
-    author_email='david.robakowski@synlay.com',
-    url='https://github.com/drobakowski/gp_testing_lib',
+    author_email='drobakowski@users.noreply.github.com',
+    url='https://github.com/synlay/gp_testing_lib',
     packages=[
         'gp_testing_lib',
     ],
